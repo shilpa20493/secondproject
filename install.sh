@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "this is day 2 of training"
+echo "this is last day of training"
