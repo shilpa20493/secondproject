@@ -1,0 +1,11 @@
+---
+- hosts: node
+  tasks:
+    - name: copy module
+      copy:
+        src: copy.html
+        dest: /var/lib/jenkins/copy.html
+    - name: template module
+      template:
+        src: template.html.j2
+        dest: /var/lib/jenkins/template.html
