@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "this is last day of training"
+echo "pipeline demo--------this is last day of training"
