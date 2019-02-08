@@ -1,0 +1,17 @@
+---
+- hosts: node
+  tasks:
+  - name: Creating user
+    user:
+     name: john
+     state: present
+     uid: 189
+  - name: create a file
+    file:
+     path: /home/ubuntu/playbookfile
+     state: touch
+  - name: installing nginx package
+    apt:
+     name: nginx
+     state: present
+
